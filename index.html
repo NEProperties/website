@@ -20,28 +20,53 @@
 
 <body>
 	<header>
-		<div class="header-container">
+		<div class="header-container hidden-on-desktop">
 			<a href="https://neproperties.homes/">
-				<img class="header-logo hidden-on-desktop" src="images/icon-ne-properties-logo.png" alt="NE Properties Company Logo">
+				<img class="header-logo" src="images/icon-ne-properties-logo.png" alt="NE Properties Company Logo">
+			</a>
+			<a href="javascript:void(0);" class="toggle-mobile-navigation-menu-button" onclick="toggleMobileNavigationMenu()">
+				<img class="hamburger-menu-icon" src="images/icon-hamburger-menu.png" alt="Navigation menu">
 			</a>
 
-			<a href="javascript:void(0);" class="toggle-mobile-navigation-menu-button" onclick="toggleMobileNavigationMenu()">
-				<img class="hamburger-menu-icon hidden-on-desktop" src="images/icon-hamburger-menu.png" alt="Navigation menu">
-			</a>
+			<div class="mobile-menu-container" id="mobile-menu">
+				<ul class="menu">
+					<li><a class="underline" href="https://neproperties.homes/">Home</a></li>
+					<li><a href="https://neproperties.homes/aboutUs">About Us</a></li>
+					<li><a href="https://neproperties.homes/videos">Videos</a></li>
+					<li><a href="https://neproperties.homes/listings">Listings</a></li>
+					<li><a href="https://neproperties.homes/blog">Blog</a></li>
+					<li><a href="https://neproperties.homes/contactUs">Contact Us</a></li>
+				</ul>
+				<div class="mobile-menu-spacer"></div>
+				<div class="mobile-menu-socials-container">
+						<div class="mobile-menu-socials">
+							<a href="https://instagram.com/neproperties_?igshid=YmMyMTA2M2Y=" title="Instagram" target="blank"><img src="images/icon-instagram.png" alt="Instagram icon"></a>
+						</div>
+						<div class="mobile-menu-socials">
+							<a href="https://www.facebook.com/NEpropertiesSG/" title="Facebook" target="blank"><img src="images/icon-facebook.png" alt="Facebook icon"></a>
+						</div>
+						<div class="mobile-menu-socials">
+							<a href="https://youtube.com/channel/UCBQHr-dcOP1r9jv999nzJuA" title="YouTube" target="blank"><img src="images/icon-youtube.png" alt="Youtube icon"></a>
+						</div>
+				</div>
+				<div class="mobile-menu-spacer"></div>
+			</div>
 		</div>
 
-		<div class="mobile-menu-container" id="mobile-menu">
-			<ul class="menu">
-				<li><a class="underline" href="https://neproperties.homes/">Home</a></li>
-				<li><a href="https://neproperties.homes/aboutUs">About Us</a></li>
-				<li><a href="https://neproperties.homes/blog">Blog</a></li>
-				<li><a href="https://neproperties.homes/contactUs">Contact Us</a></li>
-			</ul>
+		<div class="header-container hidden-on-mobile">
+			<a href="https://neproperties.homes/">
+				<img class="header-logo" src="images/icon-ne-properties-logo.png" alt="NE Properties Company Logo">
+			</a>
 
-			<div class="mobile-menu-spacer"></div>
-
-			<div class="mobile-menu-socials-container">
-				<h3>Insert Twitter and stuff<h3>
+			<div class="desktop-menu-container">
+				<ul class="menu">
+					<li><a class="underline" href="https://neproperties.homes/">Home</a></li>
+					<li><a href="https://neproperties.homes/aboutUs">About Us</a></li>
+					<li><a href="https://neproperties.homes/videos">Videos</a></li>
+					<li><a href="https://neproperties.homes/listings">Listings</a></li>
+					<li><a href="https://neproperties.homes/blog">Blog</a></li>
+					<li><a href="https://neproperties.homes/contactUs">Contact Us</a></li>
+				</ul>
 			</div>
 		</div>
 	</header>
@@ -49,34 +74,26 @@
 	<main role="main">
 		<img class="landing-page-banner" src="images/index-banner.png" alt="NE properties website banner">
 		<div class="main-container">
-		<h1>NE Snippets</h1>
-		<h3>3 Checks When Looking For A Home:</h3>
-		<ol class="landing-page-list">
-			<li>Location
-				<ul>
-					<li>• Will my future home be convenient for my family and I?</li>
-					<li>• Are there suitable amenities in the area such that I don’t have to travel out of my way?</li>
-					<li>• What is the transformation of the area like in the next 5-10 years?</li>
-				</ul>
-			</li>
-			<li>Affordability
-				<ul>
-					<li>• Is this property within my means?</li>
-					<li>• What is the maximum loan I can take up today?</li>
-					<li>• Should I fund this property with cash or CPF?</li>
-				</ul>
-			</li>
-			<li>Opportunities
-				<ul>
-					<li>• Will I be able to upgrade to a bigger unit or private property in the future?</li>
-					<li>• How much can I cash out today?</li>
-					<li>• Is it time to start my asset progression journey?</li>
-				</ul>
-			</li>
-		</ol>
+			<div class="landing-page-container">
+			<br>
+			<h1>Why NE Properties?</h1>
+			<p>Natalie and Ethan always believe in providing the best for their clients in terms of property analysis and advice therefore NE Properties was forged under the basis of perspective.</p>
+			<p>In the current property market, they understand that their clients and potential clients are constantly looking towards different viewpoints. In the process of working together, Natalie and Ethan will be able to provide their clients with various perspectives of their current stage and craft solutions on what they should do next.</p>
+			<p>They want to be the ones guiding their clients along making the right decisions in their property journey.</p>
+
+			<br>
+
+			<h1>Achievements</h1>
+			<img class="achievement-image" src="images/index-propnex-gold-achiever.jpeg" alt="Propnex Gold Achiever Certificate">
+
+			<br>
+			<br>
+
+			<h1>Find Your Home Valuation</h1>
+			<p>Curious to know how much your home is worth? Click the button below to find out more!</p>
+			<a href="http://srx.sg/89PTy" title="Home valuation" target="blank"><div class="home-valuation-button">Home Valuation</div></a>
+			</div>
 		</div>
-		<br>
-		<img class="landing-page-banner" src="images/index-propnex-gold-achiever.jpeg" alt="Propnex Gold Achiever Certificate">
 	</main>
 
 	<br>
@@ -95,7 +112,17 @@
 			</div>
 		</div>
 		<div class="footer-section">
-			<h3>Insert Socials Here</h3>
+			<div class="footer-socials-container">
+				<div class="footer-socials">
+					<a href="https://instagram.com/neproperties_?igshid=YmMyMTA2M2Y=" title="Instagram" target="blank"><img src="images/icon-instagram.png" alt="Instagram icon"></a>
+				</div>
+				<div class="footer-socials">
+					<a href="https://www.facebook.com/NEpropertiesSG/" title="Facebook" target="blank"><img src="images/icon-facebook.png" alt="Facebook icon"></a>
+				</div>
+				<div class="footer-socials">
+					<a href="https://youtube.com/channel/UCBQHr-dcOP1r9jv999nzJuA" title="YouTube" target="blank"><img src="images/icon-youtube.png" alt="Youtube icon"></a>
+				</div>
+			</div>
 		</div>
 		<div class="footer-line-break"></div>
 		<div class="copyright-info">© NE Properties | Singapore</div>
