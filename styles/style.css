@@ -360,6 +360,11 @@ footer li:not(:last-child) { /* For list in footer "contact us" section */
 		border-radius: 150px;
 	}
 
+	/* || ContactUs Page Styling */
+	.contactUs-map {
+		height: 600px;
+	}
+
 	/* || Footer Styling */
 	.footer-socials-container {
 		width: 40%;
