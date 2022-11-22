@@ -264,8 +264,12 @@ main {
 .video-container iframe {
 	display: block;
 	margin: auto;
-	height: 50vh;
+	height: 30vh;
 	width: 100%;
+}
+
+.video-caption {
+	font-size: 1.25em;
 }
 
 /* || Footer Styling */
