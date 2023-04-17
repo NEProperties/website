@@ -168,6 +168,7 @@ main {
 }
 
 .gold-achiever-image {
+	padding: 5px;
 	width: 50%;
 	border-radius: 25px;
 	max-height: 600px;
