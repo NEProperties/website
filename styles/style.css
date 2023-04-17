@@ -160,9 +160,23 @@ main {
 	text-decoration: none;
 }
 
-.achievement-image {
-	width: 80vw;
+.achievement-image-container {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.gold-achiever-image {
+	padding: 5px;
+	width: 50%;
 	border-radius: 25px;
+	max-height: 600px;
+	object-fit: contain;
+}
+
+.gen-achievement-image {
+	width: 50%;
 	max-height: 600px;
 	object-fit: contain;
 }
